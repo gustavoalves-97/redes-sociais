@@ -48,6 +48,16 @@ section#redes-sociais img {
     width: 70px;
     border-radius: 100%;
     margin: 20px;
+    box-sizing: border-box;
+    box-shadow: 3px 2px 15px 1px rgba(27, 27, 27, 0.808);
+
+    position: relative;
+}
+
+img:hover {
+    border: 5px solid rgba(255, 255, 255, 0.541);
+    transform: translate(15%);
+    transition: 0.3s;
 }
 
 
